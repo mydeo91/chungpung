@@ -1,31 +1,49 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // Main Components
-import { Main, Pizza, NotFound } from 'components';
+import { Main, Pizza } from 'components';
 
 // Styles 
-import styles from 'styles/App.module.scss';
+// import styles from 'styles/App.module.scss';
 
 export class MainContainer extends Component {
 
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      index: 0,
+    }
+  }
+
+
+  handleClick = (index) => {
+    this.setState({
+      index: index,
+    })
+  }
+
+
   render() {
-    return (
-      <Router>
-        <div className={styles.contentbox}>
-          <Switch>
-            <Route exact path="/" component={Main} />
-            <Route exact path="/pizza" component={Pizza} />
-            {/* <Route exact path="/guestHouse" component={Main} />
-            <Route exact path="/strongFire" component={Main} />
-            <Route exact path="/service" component={Main} />
-            <Route exact path="/news" component={Main} /> */}
-            <Route component={NotFound} />
-          </Switch>
-        </div>
-      </Router>
-    );
+    const { index } = this.state;
+    const item = {
+      0: <div><Main index={index} handleClick={this.handleClick} /></div>,
+      1: <div><Pizza index={index} handleClick={this.handleClick} /></div>,
+      2: <div><Main index={index} handleClick={this.handleClick} /></div>
+    }
+
+    return (item[index]);
   }
 }
+
+// function doNotReload(event) {
+
+//   if(event.ctrlKey === true && (event.keyCode === 78 || event.keyCode === 82 || event.keyCode === 116)) {
+//     event.keyCode = 0;
+//     event.cancelBubble = true;
+//     event.returnValue = false;
+//   }
+// }
 
 export default MainContainer;
