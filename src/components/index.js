@@ -1,0 +1,5 @@
+export {default as MainContainer} from './MainContainer'
+export {default as Main} from './Main'
+export {default as BannerIndex} from './BannerIndex'
+export {default as Pizza} from './Pizza'
+export {default as NotFound} from './NotFound'
