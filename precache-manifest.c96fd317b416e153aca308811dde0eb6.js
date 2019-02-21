@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "14dd148ad5fd9a2b9541",
+    "revision": "c52ab1e705351ac269ba",
     "url": "/chungpung/static/css/main.5493cc51.chunk.css"
   },
   {
-    "revision": "14dd148ad5fd9a2b9541",
-    "url": "/chungpung/static/js/main.14dd148a.chunk.js"
+    "revision": "c52ab1e705351ac269ba",
+    "url": "/chungpung/static/js/main.c52ab1e7.chunk.js"
   },
   {
     "revision": "9ce3632e5124eeaa64b4",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/chungpung/static/js/2.24066bb0.chunk.js"
   },
   {
-    "revision": "af49ee277eba773ed75febe07c217793",
+    "revision": "b638bc8d44f73e70b879b6f83940f5d7",
     "url": "/chungpung/index.html"
   }
 ];
