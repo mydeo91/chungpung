@@ -11,19 +11,17 @@ export class MainContainer extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/chungpung">
         <div className={styles.contentbox}>
-          <div className={styles.content}>
-            <Switch>
-              <Route exact path="/" component={Main} />
-              <Route exact path="/pizza" component={Pizza} />
-              {/* <Route exact path="/guestHouse" component={Main} />
-              <Route exact path="/strongFire" component={Main} />
-              <Route exact path="/service" component={Main} />
-              <Route exact path="/news" component={Main} /> */}
-              <Route component={NotFound} />
-            </Switch>
-          </div>
+          <Switch>
+            <Route exact path="/" component={Main} />
+            <Route exact path="/pizza" component={Pizza} />
+            {/* <Route exact path="/guestHouse" component={Main} />
+            <Route exact path="/strongFire" component={Main} />
+            <Route exact path="/service" component={Main} />
+            <Route exact path="/news" component={Main} /> */}
+            <Route component={NotFound} />
+          </Switch>
         </div>
       </Router>
     );
