@@ -1,13 +1,11 @@
 {
-  "main.css": "/chungpung/static/css/main.5493cc51.chunk.css",
-  "main.js": "/chungpung/static/js/main.472ded52.chunk.js",
-  "main.js.map": "/chungpung/static/js/main.472ded52.chunk.js.map",
+  "main.js": "/chungpung/static/js/main.d1594b28.chunk.js",
+  "main.js.map": "/chungpung/static/js/main.d1594b28.chunk.js.map",
   "runtime~main.js": "/chungpung/static/js/runtime~main.9ce3632e.js",
   "runtime~main.js.map": "/chungpung/static/js/runtime~main.9ce3632e.js.map",
-  "static/js/2.c69096bd.chunk.js": "/chungpung/static/js/2.c69096bd.chunk.js",
-  "static/js/2.c69096bd.chunk.js.map": "/chungpung/static/js/2.c69096bd.chunk.js.map",
+  "static/js/2.acb2e2ac.chunk.js": "/chungpung/static/js/2.acb2e2ac.chunk.js",
+  "static/js/2.acb2e2ac.chunk.js.map": "/chungpung/static/js/2.acb2e2ac.chunk.js.map",
   "index.html": "/chungpung/index.html",
-  "precache-manifest.3c9aff060a7a5a55f70a5121fdcde585.js": "/chungpung/precache-manifest.3c9aff060a7a5a55f70a5121fdcde585.js",
-  "service-worker.js": "/chungpung/service-worker.js",
-  "static/css/main.5493cc51.chunk.css.map": "/chungpung/static/css/main.5493cc51.chunk.css.map"
+  "precache-manifest.b404d8e72c5301fcd229d143ee2f1372.js": "/chungpung/precache-manifest.b404d8e72c5301fcd229d143ee2f1372.js",
+  "service-worker.js": "/chungpung/service-worker.js"
 }
