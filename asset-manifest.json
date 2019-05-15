@@ -1,11 +1,18 @@
 {
-  "main.js": "/chungpung/static/js/main.d1594b28.chunk.js",
-  "main.js.map": "/chungpung/static/js/main.d1594b28.chunk.js.map",
-  "runtime~main.js": "/chungpung/static/js/runtime~main.9ce3632e.js",
-  "runtime~main.js.map": "/chungpung/static/js/runtime~main.9ce3632e.js.map",
-  "static/js/2.acb2e2ac.chunk.js": "/chungpung/static/js/2.acb2e2ac.chunk.js",
-  "static/js/2.acb2e2ac.chunk.js.map": "/chungpung/static/js/2.acb2e2ac.chunk.js.map",
-  "index.html": "/chungpung/index.html",
-  "precache-manifest.b404d8e72c5301fcd229d143ee2f1372.js": "/chungpung/precache-manifest.b404d8e72c5301fcd229d143ee2f1372.js",
-  "service-worker.js": "/chungpung/service-worker.js"
+  "files": {
+    "main.css": "/chungpung/static/css/main.f53b35de.chunk.css",
+    "main.js": "/chungpung/static/js/main.5fb97c7e.chunk.js",
+    "main.js.map": "/chungpung/static/js/main.5fb97c7e.chunk.js.map",
+    "runtime~main.js": "/chungpung/static/js/runtime~main.db8ffab9.js",
+    "runtime~main.js.map": "/chungpung/static/js/runtime~main.db8ffab9.js.map",
+    "static/js/2.0ff957b0.chunk.js": "/chungpung/static/js/2.0ff957b0.chunk.js",
+    "static/js/2.0ff957b0.chunk.js.map": "/chungpung/static/js/2.0ff957b0.chunk.js.map",
+    "index.html": "/chungpung/index.html",
+    "precache-manifest.8a7352174ff1cc6f3b1a6f9f6ed807a5.js": "/chungpung/precache-manifest.8a7352174ff1cc6f3b1a6f9f6ed807a5.js",
+    "service-worker.js": "/chungpung/service-worker.js",
+    "static/css/main.f53b35de.chunk.css.map": "/chungpung/static/css/main.f53b35de.chunk.css.map",
+    "static/media/bg-guesthouse.jpg": "/chungpung/static/media/bg-guesthouse.2735694f.jpg",
+    "static/media/bg-strong.jpg": "/chungpung/static/media/bg-strong.98f41903.jpg",
+    "static/media/room01.jpg": "/chungpung/static/media/room01.6e6b892e.jpg"
+  }
 }
