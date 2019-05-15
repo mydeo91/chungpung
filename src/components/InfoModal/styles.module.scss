@@ -1,0 +1,80 @@
+.modalContainer {
+  width: 100vh;
+  height: 90vh;
+  background-color: #222a46;
+  border-radius: 10px;
+  box-shadow: none;
+  .headerWrapper {
+    margin: 0 20px;
+    .header {
+      margin: 0;
+      &::after {
+        content: "";
+        display: block;
+        width: 80%;
+        border: 1px solid white;
+        margin-top: 10px;
+      }
+    }
+    .subHeader {
+      padding: 10px 0;
+      font-size: 14px;
+      font-weight: 100;
+    }
+  }
+  .infoContainer {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // border: 1px solid whitesmoke;
+    .leftPane {
+      text-align: center;
+      width: 50%;
+      display: inline;
+      .bottomPhoto {
+        margin: 0 15px;
+        .description {
+          margin-top: 15px;
+          h5 {
+            text-align: left;
+            font-weight: 600;
+            line-height: 5px;
+            font-size: 20px;
+          }
+          p {
+            text-align: left;
+            font-weight: lighter;
+            line-height: 22px;
+            font-size: 15px;
+            margin: 5px 0;
+          }
+        }
+        img {
+          width: 35px;
+          height: 35px;
+        }
+      }
+    }
+    .rightPane {
+      width: 50%;
+      text-align: center;
+      margin: 0 25px;
+      h5 {
+        text-align: left;
+        font-weight: 600;
+        line-height: 5px;
+        font-size: 20px;
+        margin-bottom: 30px;
+      }
+      p {
+        text-align: left;
+        font-weight: lighter;
+        line-height: 22px;
+        font-size: 15px;
+        margin: 5px 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
